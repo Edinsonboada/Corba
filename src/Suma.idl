@@ -1,0 +1,8 @@
+module sumapp
+{
+  interface suma
+  {
+  long add(in long firstNumber, in long secondNumber);
+  oneway void shutdown();
+  };
+};
